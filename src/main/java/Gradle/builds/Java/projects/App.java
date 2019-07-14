@@ -5,10 +5,12 @@ package Gradle.builds.Java.projects;
 
 public class App {
     public String getGreeting() {
-        return "Hello world.";
+
+        return "This is a Gradle Projec";
     }
 
     public static void main(String[] args) {
+
         System.out.println(new App().getGreeting());
     }
 }
